@@ -1,16 +1,22 @@
+/* Header */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
-  background-color: #f8f9fa; /* Adjust background color as needed */
+  padding: 20px;
+  margin: 0 auto; /* Center the header */
+  max-width: 1200px; /* Add a max-width to limit header width */
 }
 
+/* Logo */
 .logo {
   text-decoration: none;
-  color: inherit; /* Maintain the color of the h1 */
+  color: #333; /* Maintain the color of the h1 */
+  font-size: 24px; /* Increase font size for the logo */
+  font-weight: bold; /* Make the logo bold */
 }
 
+/* Navigation */
 nav ul {
   display: flex;
   list-style: none;
@@ -19,13 +25,14 @@ nav ul {
 }
 
 nav ul li {
-  margin-left: 20px;
+  margin-left: 30px; /* Increase spacing between navigation items */
 }
 
 nav ul li a {
   text-decoration: none;
-  color: #333; /* Adjust the link color as needed */
-  font-size: 16px;
+  color: #555; /* Adjust the link color as needed */
+  font-size: 18px; /* Increase font size for navigation links */
+  transition: color 0.3s ease; /* Add smooth transition on hover */
 }
 
 nav ul li a:hover {
