@@ -1,3 +1,4 @@
+/* Home Section */
 #home {
   display: flex;
   flex-direction: column;
@@ -6,6 +7,7 @@
   padding: 20px; /* Adjust the padding as needed */
 }
 
+/* Profile Image */
 .profile-image {
   display: block;
   margin: 0 auto 15px auto; /* Center the image and add some bottom margin */
@@ -15,6 +17,7 @@
   object-fit: cover; /* Ensure the image covers the area without stretching */
 }
 
+/* Social Links */
 .social-links {
   margin-top: 10px;
 }
@@ -28,6 +31,7 @@
   height: 24px;
 }
 
+/* Download CV Button */
 .download-cv {
   display: inline-block;
   margin-top: 15px;
