@@ -1,23 +1,20 @@
-/* Home Section */
 #home {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 20px; /* Adjust the padding as needed */
+  padding: 20px;
 }
 
-/* Profile Image */
 .profile-image {
   display: block;
-  margin: 0 auto 15px auto; /* Center the image and add some bottom margin */
-  width: 150px; /* Adjust the size as needed */
-  height: 150px; /* Ensure it's a square */
-  border-radius: 50%; /* Make the image rounded */
-  object-fit: cover; /* Ensure the image covers the area without stretching */
+  margin: 0 auto 15px auto;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-/* Social Links */
 .social-links {
   margin-top: 10px;
 }
@@ -27,11 +24,10 @@
 }
 
 .social-links img {
-  width: 24px; /* Adjust the size as needed */
+  width: 24px;
   height: 24px;
 }
 
-/* Download CV Button */
 .download-cv {
   display: inline-block;
   margin-top: 15px;
@@ -40,7 +36,7 @@
 
 .download-cv button {
   padding: 10px 20px;
-  background-color: #007bff; /* Customize button color */
+  background-color: #007bff;
   color: white;
   border: none;
   border-radius: 5px;
@@ -49,5 +45,5 @@
 }
 
 .download-cv button:hover {
-  background-color: #0056b3; /* Darken button color on hover */
+  background-color: #0056b3;
 }

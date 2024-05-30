@@ -1,0 +1,67 @@
+/* About Section */
+#about {
+  padding: 80px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about-text {
+  width: 60%;
+}
+
+.about-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-text h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-text ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-text ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.about-skills {
+  width: 40%;
+}
+
+.about-skills h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-skills ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
